@@ -5,7 +5,7 @@ let days = document.querySelector('#days'),
 
 
     setInterval(() => {
-        let Odate = new Date('1 Jan 2024'),
+        let Odate = new Date('1 May 2024'),
             diff = Odate - Date.now(),
             day = Math.floor(diff / 1000 / 60 / 60 / 24),
             hour = Math.floor(diff / 1000 / 60 / 60 % 24),
